@@ -1,6 +1,6 @@
 /******************************************************************* 
 *	Author Name: Thomas Osgood									   *
-*	Author Email: [redacted]@[redacted].com							   *	
+*	Author Email: [redacted]@[redacted].com						   *	
 *																   *
 *	Purpose:													   *
 *		- test C++ programming									   *
