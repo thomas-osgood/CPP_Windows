@@ -87,6 +87,10 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	Char_Line('-', 35);
 
+	cout << "Lightspeed is " << LIGHTSPEED << " m/s" << endl;
+
+	Char_Line('-', 35);
+
 	/* Display Author Information */
 	Print_Author();
 
