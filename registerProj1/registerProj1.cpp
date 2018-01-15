@@ -37,6 +37,33 @@ void Print_Author() {
 }
 
 /********************************************************************
+*                     Print Character Line   						*
+*********************************************************************
+* Inputs:															*
+*	- Character (type: char)										*
+*	- Amount (type: int)											*
+*																	*
+* Returns:															*
+*	- none															*
+*																	*
+* Description:														*
+*	- print out a line with one character repeating x times to  	*
+*	  standard output												*
+********************************************************************/
+void Char_Line(char c, int a) {
+	int i = 0;
+	
+	/* Check for amount being less than or equal to zero */
+	if (a <= 0)
+		a = 30;
+
+	for (i = 0; i < a; i++)
+		cout << c;
+
+	cout << endl;
+}
+
+/********************************************************************
 *							Main Function							*
 *********************************************************************
 * Inputs:															*
@@ -57,6 +84,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	cout << "2 ^ 10: " << number << endl;
 	cout << "10 Shifted Left One: " << shifted << endl;
+
+	Char_Line('-', 35);
 
 	/* Display Author Information */
 	Print_Author();
