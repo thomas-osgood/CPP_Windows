@@ -87,7 +87,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	Char_Line('-', 35);
 
-	cout << "Lightspeed is " << LIGHTSPEED << " m/s" << endl;
+	cout << endl << "Lightspeed is " << LIGHTSPEED << " m/s" << endl << endl;
 
 	Char_Line('-', 35);
 
@@ -95,6 +95,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	Print_Author();
 
 	/* Wait For User To Hit Enter */
+	BLANKLINE;
+	Char_Line('*', 35);
+	cout << "Press enter to end program";
 	getchar();
 	
 	/* Successful Exit */

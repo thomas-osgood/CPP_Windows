@@ -9,4 +9,6 @@
 #define AUTHOR_EMAIL "<jsmith@example.com>"
 #define AUTHOR_PHONE "555-555-5555"
 
+#define BLANKLINE cout<<endl
+
 #endif
